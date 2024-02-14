@@ -23,5 +23,12 @@ function rectangl(){
 
     const rectlagetss = document.getElementById('rectLargt');
     const rectInputLargt=rectlagetss.value;
-    console.log(rectInputLargt);
+    const valueLag=parseFloat(rectInputLargt);
+    console.log(valueLag);
+
+
+    const rectAreall=valueFloted * valueLag;
+    const rectAreaOntext = document.getElementById('rectArea');
+     
+    rectAreaOntext.innerText=rectAreall;
 }
